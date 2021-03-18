@@ -11,6 +11,12 @@ const fs = require('fs');
 
 const obj = {
 	index: path.join(path.resolve(__dirname, 'src/js'), 'index.js'),
+	home: path.join(path.resolve(__dirname, 'src/js'), 'home.js'),
+	contact: path.join(path.resolve(__dirname, 'src/js'), 'contact.js'),
+	chisiamo: path.join(path.resolve(__dirname, 'src/js'), 'chisiamo.js'),
+	prenota: path.join(path.resolve(__dirname, 'src/js'), 'prenota.js'),
+
+
 }
 
 module.exports = obj
